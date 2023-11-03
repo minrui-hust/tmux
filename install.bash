@@ -22,3 +22,5 @@ else
   sudo make install -j
 fi
 
+# add alias in bashrc
+echo \nalias tmux=tmux -u >> ${HOME}/.bashrc
