@@ -23,4 +23,5 @@ else
 fi
 
 # add alias in bashrc
+echo Add alias in .bashrc
 echo \nalias tmux=tmux -u >> ${HOME}/.bashrc
