@@ -25,3 +25,4 @@ fi
 # add alias in bashrc
 echo Add alias in .bashrc
 echo -e "\nalias tmux='tmux -u'" >> ${HOME}/.bashrc
+echo -e "\nexport TERM=xterm-256color" >> ${HOME}/.bashrc
