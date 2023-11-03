@@ -18,7 +18,7 @@ else
   tmux_image_path=https://github.com/tmux/tmux/releases/download/3.3a/
   wget -c -O /tmp/${tmux_image} ${tmux_image_path}/${tmux_image} || { echo tmux install failed; exit 1; }
   tar xzf /tmp/${tmux_image} -C /tmp
-  cd /tmp/tmux-3.3a && ./configure.sh 
+  cd /tmp/tmux-3.3a && ./configure
   sudo make install -j
 fi
 
